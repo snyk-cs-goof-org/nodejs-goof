@@ -16,6 +16,10 @@ on:
            # * * * * *
     - cron: '30 2 * * 1-5'
 
+  push:
+    branches:
+      - 'main'
+
 jobs:
   open-source-test:
     runs-on: ubuntu-latest
